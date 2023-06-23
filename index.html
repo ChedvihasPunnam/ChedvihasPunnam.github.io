@@ -1,102 +1,317 @@
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css"> <!-- Link your custom CSS file here -->
-  <title>Resume</title>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>Chedvihas Punnam</h1>
-      <p>Tempe (AZ) • 602-860-0123 • p.chedvihas@gmail.com • <a href="https://www.linkedin.com/in/chedvihas-punnam-a34997164/">Linkedin</a></p>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <div class="section">
-      <h2>EDUCATION</h2>
-      <div class="education">
-        <h4>M.S. Computer Software Engineering (CGPA: 4.0/4.0)</h4>
-        <p>08/2022 - 05/2024</p>
-        <p>Arizona State University</p>
-        <p>Tempe, Arizona</p>
-      </div>
-      <div class="education">
-        <h4>B.Tech Computer Science Engineering (CGPA: 7.0/10.0)</h4>
-        <p>07/2017 - 05/2021</p>
-        <p>IIT Bhilai</p>
-        <p>Bhilai, India</p>
-      </div>
-    </div>
+    <title>Portfolio</title>
 
-    <div class="section">
-      <h2>TECHNICAL SKILLS</h2>
-      <ul>
-        <li>Programming Languages: Java, Python, SQL, Bash, C, C#, C++</li>
-        <li>Web Development: React JS, HTML, CSS, Bootstrap, JavaScript, AJAX, jQuery, JSON</li>
-        <li>Databases: Oracle, MS SQL Server, MongoDB</li>
-        <li>Tools and Processes: Linux, Maven, Jenkin, AWS (EC2, S3, Redshift, EMR), ServiceNow (ITSM), Git, JIRA, Agile, Scrum</li>
-      </ul>
-    </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <div class="section">
-      <h2>PROFESSIONAL EXPERIENCE</h2>
-      <div class="experience">
-        <h4>Larsen &amp; Toubro Infotech, India: Senior Software Engineer</h4>
-        <p>07/2021 - 04/2022</p>
-        <ul>
-          <li>Planning, analysis, design and implementation of different modules using Agile Methodology</li>
-          <li>Implemented Spring framework with modules such as Spring Boot, Spring-AOP, Spring-ORM, Spring-JPA, Spring-Data, Spring-Security, resulting in reduced code complexity by 30% and improved performance by 25%</li>
-          <li>Implemented Micro Service Architecture with Spring Boot based RESTful services, resulting in a 40% reduction in response time</li>
-          <li>Worked with Java SDK in AWS environment, achieving an average cost reduction of 15%</li>
-          <li>Used React JS components, Forms, Events, Keys, Router, Animations, and Flux concept, resulting in a 20% reduction in page load time</li>
-          <li>Used React-Router to turn the application into a Single Page Application, improving user navigation experience with 50% fewer page reloads</li>
-          <li>Customized Restful web service using spring restful API, sending JSON format data packets between front end and middle tier controller, resulting in a 40% reduction in payload size through optimized JSON formatting</li>
-          <li>Used REST Client and POSTMAN to test the rest-based services and used JUnit and Mockito to test the middleware services, increasing software reliability by 20% through extensive testing</li>
-          <li>Responsible for Continuous Integration (CI) and Continuous Delivery (CD) process implementation using Jenkins along with UNIX Shell scripts to automate routine jobs, resulting in 40% faster and error-free software delivery</li>
-        </ul>
-      </div>
-    </div>
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
 
-    <div class="section">
-      <h2>PROJECTS</h2>
-      <div class="project">
-        <h4>Survey Application</h4>
-        <p>Full Stack Development (Java, Spring Boot, MySQL, AWS)</p>
-        <p>08/2022 – 11/2022</p>
-        <ul>
-          <li>Developed a custom survey application using Angular for the frontend and Java Spring Boot for the backend</li>
-          <li>Enabled administrators to download survey responses in csv format for data analysis</li>
-          <li>Utilized MySQL database hosted on AWS RDS for data storage and retrieval</li>
-        </ul>
-      </div>
-      <div class="project">
-        <h4>Expense Tracker</h4>
-        <p>Full Stack Development (MongoDB, Express.js, React.js, Node.js)</p>
-        <p>06/2020 – 08/2020</p>
-        <ul>
-          <li>Designed and developed a cloud-based web application to track personal income and expenses</li>
-          <li>Designed a MongoDB schema to store data and generate insightful reports and graphs on weekly and monthly timelines</li>
-          <li>Automated the process of adding new transactions from transaction alert emails using Gmail APIs, resulting in a 40% increase in transaction tracking accuracy and a 50% reduction in manual data entry</li>
-        </ul>
-      </div>
-      <div class="project">
-        <h4>WebApp for Certificates</h4>
-        <p>Full Stack Development (HTML, CSS, JavaScript, PHP, MySQL)</p>
-        <p>02/2020 – 04/2020</p>
-        <ul>
-          <li>Developed a Website which automates the tedious process of students applying for Certificates in the academic section manually</li>
-          <li>Students may apply for the certificates needed from the list of available options and fill in the necessary details and receive a notification whenever the certificates are ready</li>
-        </ul>
-      </div>
-    </div>
 
-  </div>
+  </head>
+  <body>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Chedvihas Punnam</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-8 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        
+                        <h1 class="animated animated-text">
+                            <span class="mr-4">Hi, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Software Engineer</span>
+                                    <span class="animated-item">Data Engineer</span>
+                                    <span class="animated-item">Data Enthusiast</span>
+                                </div>
+                        </h1>
+
+                        <p>I am a Software Engineer with experience in Java, C#, C++, Python, JavaScript, HTML, CSS, R, and SQL. My diverse skill set allows me to excel in web development, data science, and data engineering. In web development, I create scalable applications using Java, C#, JavaScript, HTML, and CSS. I am proficient in front-end frameworks like React and Angular, as well as back-end frameworks like Spring and ASP.NET. In data science, I leverage Python, R, and SQL for data manipulation, statistical analysis, and machine learning. I am familiar with libraries such as Pandas, NumPy, scikit-learn, and TensorFlow. As a data engineer, I design and implement efficient data pipelines using Python, SQL, and ETL processes. I work with databases like MySQL, PostgreSQL, and MongoDB. I am a quick learner, adapting to new languages and technologies. My strong problem-solving skills and passion for technology drive me to deliver high-quality solutions. With expertise in Java, C#, C++, Python, JavaScript, HTML, CSS, R, and SQL, I contribute effectively to web development, data science, and data engineering projects. I stay up to date with industry trends, ensuring innovation in the ever-changing tech landscape.</p>
+                        
+                        <div class="custom-btn-group mt-">
+                          <a href="uploads/Chedvihas_Punnam_resume2.pdf "target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/11.jpg" class="img-fluid" alt="svg image">
+                    </br></br>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project py-5" id="project">
+      <div class="container">
+              
+              <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                      <h2>Projects </h2>
+                    </div>
+
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <div class="project-info">
+                          <h3><span> Survey Application</span></h3>
+                          
+                          <h4><span>Full Stack Development (Java, Spring Boot, MySQL, AWS)</span></h4>
+                          <p>
+                          <ul style="list-style-type: disc; margin-left: 30px; margin-right: 30px;">
+                            <li>Developed a custom survey application using Angular for the frontend and Java Spring Boot for the backend.</li><br>
+                            <li>Enabled administrators to download survey responses in CSV format for data analysis.</li><br>
+                            <li>Utilized MySQL database hosted on AWS RDS for data storage and retrieval.</li>
+                          </ul>
+                        </p>
+                          
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="project-info">
+                          <h3><span>Expense Tracker</span></h3>
+                          <h4><span>Full Stack Development (MongoDB, Express.js, React.js, Node.js)</span></h4>
+                          <p>
+                          <ul style="list-style-type: disc; margin-left: 30px; margin-right: 30px;">
+                            <li>Designed and developed a cloud-based web application to track personal income and expenses.</li><br>
+                            <li>Designed a MongoDB schema to store data and generate insightful reports and graphs on weekly and monthly timelines.</li><br>
+                            <li>Automated the process of adding new transactions from transaction alert emails using Gmail APIs, resulting in a 40% increase in transaction tracking accuracy and a 50% reduction in manual data entry.</li>
+                          </ul>
+                        </p>
+                        </div>
+                      </div>
+
+
+                      <div class="item">
+                        <div class="project-info">
+                          <h3><span>WebApp for Certificates</span></h3>
+                          <h4><span>Full Stack Development (HTML, CSS, JavaScript, PHP, MySQL)</span></h4>
+                          <p>
+                            <ul style="list-style-type: disc; margin-left: 30px; margin-right: 30px;">
+                              <li>Developed a website to automate the manual process of students applying for certificates in the academic section.</li><br>
+                              <li>Implemented HTML, CSS, and JavaScript for the frontend and PHP for the backend.</li><br>
+                              <li>Used MySQL database for storing and retrieving certificate-related data.</li><br>
+                              <li>Students can select the desired certificates from the available options and provide necessary details.</li><br>
+                              <li>Implemented a notification system to alert students when their certificates are ready.</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+
+
+                      <div class="item">
+                        <div class="project-info">
+                          <h3><span><a rel="nofollow" href="https://ipl-app.onrender.com/" target="_blank">IPL Data Analysis and Prediction</a></span></h3>
+                          <!-- <img src="images/project/medicalData.webp" class="img-fluid" alt="project image"> -->
+                          <h4><span>Data Science (Python, TensorFlow, Matplotlib, Django, Heroku)</span></h4>
+                          <p>
+                            <ul style="list-style-type: disc; margin-left: 30px; margin-right: 30px;">
+                              <li>Conducted web scraping of cricket match data, followed by data cleaning and in-depth analysis to identify key performance indicators.</li><br>
+                              <li>Developed a predictive model that calculates scores and winning probabilities based on current match situations, utilizing parameters such as current score, striker, non-striker, and their current scores, resulting in an improvement in accuracy compared to previous models.</li><br>
+                              <li>Created a web application for the project using Django framework in Python, resulting in a user-friendly interface for users to access and interact with the model's predictions.</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                      
+
+                    </div>
+
+                </div>
+              </div>
+      </div>
+  </section>
+
+
+
+     <!-- FEATURES -->
+     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-lg-6 col-12">
+                <h2 class="mb-4">Work Experience</h2>
+
+                  <div class="timeline">
+                      <div class="timeline-wrapper">
+                           <div class="timeline-yr">
+                                <span>2021</span>
+                           </div>
+                           <div class="timeline-info">
+                                <h3><span>Senior Software Engineer</span><small> <a rel="nofollow" href="https://www.ltimindtree.com/" target="_blank"> Larsen & Toubro Infotech, India </a></small></h3>
+                                <p>
+                                 
+                                  Proficiently utilized Agile Methodology to plan, analyze, design, and implement various modules, ensuring efficient project execution.
+                                </br></br>
+                                Successfully implemented Spring framework modules like Spring Boot, Spring-AOP, Spring-ORM, Spring-JPA, Spring-Data, and Spring-Security, resulting in a significant 30% reduction in code complexity and a 25% improvement in performance
+                              </br></br>
+                                Implemented Micro Service Architecture using Spring Boot for RESTful services, leading to a notable 40% reduction in response time.
+                              </br></br>
+                                    Demonstrated expertise in Java SDK in an AWS environment, achieving an average cost reduction of 15% and effectively optimizing resource utilization. 
+                                  </br></br>
+                                    Additionally, employed React JS components, React-Router, and RESTful APIs to enhance page load time, user navigation experience, and data payload size, respectively. 
+                                  </br></br>
+                                    Implemented robust testing strategies using tools like REST Client, POSTMAN, JUnit, and Mockito to ensure software reliability.
+                                  </br></br>
+                                   Responsible for implementing Continuous Integration (CI) and Continuous Delivery (CD) processes using Jenkins and UNIX Shell scripts, resulting in a significant 40% improvement in software delivery speed while maintaining high quality.
+                                  
+
+                               
+                              
+                              </p>
+
+                           </div>
+                      </div>
+
+
+
+ 
+                      
+                     
+
+                  </div>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <h2 class="mb-4 mobile-mt-2">Education</h2>
+
+                  <div class="timeline">
+                      <div class="timeline-wrapper">
+                           <div class="timeline-yr">
+                                <span>2022</span>
+                           </div>
+                           <div class="timeline-info">
+                                <h3><span> Master of Science</span><small> <a rel="nofollow" href="https://scai.engineering.asu.edu/" target="_blank">Arizona State University, Tempe, US </a></small></h3>
+                           </div>
+                      </div>
+
+                      <div class="timeline-wrapper">
+                          <div class="timeline-yr">
+                              <span>2017</span>
+                          </div>
+
+                          <div class="timeline-info">
+                              <h3><span>Bachelor of Technology</span><small> <a rel="nofollow" href="https://www.iitbhilai.ac.in/" target="_blank"> Indian Institute of Technology Bhilai</a></small></h3>
+                              
+                          </div>
+                      </div>
+                      
+                    
+
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.27730499336!2d-111.99814146768489!3d33.3920460578212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1676585412247!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>         
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+              <div class="contact-info d-flex justify-content-between align-items-center px-lg-5">
+                <div class="contact-info-item">
+                </div>
+
+                <ul class="social-links">
+                     <li></li>
+                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=p.chedvihas@gmail.com&cc=cpunnam@asu.edu" target="_blank" data-toggle="tooltip" data-placement="top" title="" data-original-title="Email"><img src="images/undraw/gmail.png" class="img-fluid" alt="Gmail" width="42px;" ></a></li>
+                     <li><a href="https://www.linkedin.com/in/chedvihas-punnam-a34997164/" target="_blank" data-toggle="tooltip" data-placement="top" title="" data-original-title="LinkedIn"><img src="images/undraw/linkedin.png" class="img-fluid" alt="LinkedIn"></a></li>
+                     <li><a href="https://github.com/ChedvihasPunnam" target="_blank"  data-toggle="tooltip" data-placement="top" title="" data-original-title="Github"><img src="images/undraw/github.png" class="img-fluid" alt="Github"></a></li>
+                     <li></li>
+                     
+                </ul>
+            </div>
+             
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
 </html>
-
